@@ -1,0 +1,51 @@
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Barlow, Open Sans, Lucida Grande, Helvetica Neue, Helvetica, Arial, Sans-serif;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+}
+.header-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 105px;
+  height: 28px;
+}
+.header-music-nav {
+  font-size: 0;
+}
+.header-music-nav_current {
+  height: 60px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav-search {
+  margin-top: 4px;
+}
+.header-nav-link {
+  color: #fff;
+  margin-left: 10px;
+  outline: none;
+  text-decoration: none;
+  opacity: 0.85;
+  font-size: 14px;
+}
+.header-nav-profile {
+  margin: 0 20px;
+  background-color: #fff;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+}
