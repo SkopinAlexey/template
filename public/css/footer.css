@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 48px;
+  background-color: #000;
+}
+.footer-top {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 48px;
+  max-width: 980px;
+  justify-content: space-between;
+}
+.footer-top-item h2 {
+  color: #666;
+  font-size: 12px;
+}
+.footer-top-item li {
+  padding-bottom: 5px;
+  list-style: none;
+  font-size: 14px;
+  color: #fff;
+}

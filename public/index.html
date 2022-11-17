@@ -1,37 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header-music-nav">
+			<img class="header-music-nav_current" src="./img/b.png" alt="">
+		</div>
+		<img class="header-logo" src="./img/a.png" alt="">
+		<nav class="header-nav">
+			<a class="header-nav-search" href="">
+				<img src="./img/search.png" alt="">
+			</a>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+			<a class="header-nav-link" href="">Home</a>
+			<a class="header-nav-link" href="">Live</a>
+			<a class="header-nav-link" href="">Music</a>
+			<a class="header-nav-link" href="">Charts</a>
+			<a class="header-nav-link" href="">Events</a>
+			<a class="header-nav-link" href="">Features</a>
+			<a class="header-nav-profile" href=""></a>
+		</nav>
+	</header>
+	<main class="main">
+		<h1 class="main-title">Music</h1>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+		<section class="main-section">
+			<h2 class="main-section-title">Hot right now</h2>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+			<div class="main-section-content main-section-content-hotlist">
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/drake.webp" alt="">
+					<h3>Drake</h3>
+					<span>Hip-hop, rnb, rap</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/joji.webp" alt="">
+					<h3>Joji</h3>
+					<span>Lo-fi, rnb, hip-hop</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/kanye.webp" alt="">
+					<h3>Kanye West</h3>
+					<span>Hip-hop, rap, Hip hop</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/weeknd.webp" alt="">
+					<h3>The Weeknd</h3>
+					<span>rnb, electonic, canadian</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/lana.webp" alt="">
+					<h3>Lana Del Rey</h3>
+					<span>indie, female vocalist, pop</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/lamar.webp" alt="">
+					<h3>Kendrick Lamar</h3>
+					<span>hip-hop, rap, hip hop</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/tyler.webp" alt="">
+					<h3>Tyler, the Creator</h3>
+					<span>hip-hop, rap ofwgkta</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/arctic_monkeys.webp" alt="">
+					<h3>Arctic Monkeys</h3>
+					<span>indie rock, indie, british</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/jin.webp" alt="">
+					<h3>Jin</h3>
+					<span>rap, bts, hip-hop</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/playboi_carti.webp" alt="">
+					<h3>Playboi Carti</h3>
+					<span>trap, hip-hop, cloud rap</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/mitski.webp" alt="">
+					<h3>Mitski</h3>
+					<span>indie-rop, indie, indie-pop</span>
+				</div>
+
+				<div class="main-section-content-hotlist_item">
+					<img src="./img/frank_ocean.webp" alt="">
+					<h3>Frank Ocean</h3>
+					<span>rnb, soul, hip-hop</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="main-section">
+			<h2 class="main-section-title">Popular tracks</h2>
+
+			<div class="main-section-content main-section-content-songs">
+				<div class="main-section-content-songs_item">
+					<img src="./img/astronaut.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>Astronaut</h3>
+						<span class="main-section-content-songs_item-text_group">Jin</span>
+						<span class="main-section-content-songs_item-text_tags">coldplay, jin, rm</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/yet_to_come.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>Yet to Come</h3>
+						<span class="main-section-content-songs_item-text_group">BTS</span>
+						<span class="main-section-content-songs_item-text_tags">k-pop, bts, гуки</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/bejeweled.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>Bejeweld</h3>
+						<span class="main-section-content-songs_item-text_group">Taylor Swift</span>
+						<span class="main-section-content-songs_item-text_tags">pop, singer-songwriter, electonic</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/antifragile.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>Antifragile</h3>
+						<span class="main-section-content-songs_item-text_group">LE SSERAFIM</span>
+						<span class="main-section-content-songs_item-text_tags">reggaeton, k-pop</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/die_for_you.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>Die for You</h3>
+						<span class="main-section-content-songs_item-text_group">Joji</span>
+						<span class="main-section-content-songs_item-text_tags">rnb, pop, alternative</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/more.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>More</h3>
+						<span class="main-section-content-songs_item-text_group">j-hope</span>
+						<span class="main-section-content-songs_item-text_tags">rock, hip-hop, rap</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/rich_flex.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>Rich Flex</h3>
+						<span class="main-section-content-songs_item-text_group">Drake</span>
+						<span class="main-section-content-songs_item-text_tags">-1001747063611, myspotigrambot</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/left_and_right.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>Charlie Puth</h3>
+						<span class="main-section-content-songs_item-text_group">Charlie Puth</span>
+						<span class="main-section-content-songs_item-text_tags">pop, jungkook, 2022</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/nema.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>poppy</h3>
+						<span class="main-section-content-songs_item-text_group">Stay-C</span>
+						<span class="main-section-content-songs_item-text_tags">stayc, k-pop, kpop</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/nema.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>Do you miss me</h3>
+						<span class="main-section-content-songs_item-text_group">PinkPantheress</span>
+						<span class="main-section-content-songs_item-text_tags">uk garage, rnb, drum and bass</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/shut.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>Shut Down</h3>
+						<span class="main-section-content-songs_item-text_group">Blackpink</span>
+						<span class="main-section-content-songs_item-text_tags">k-pop, pop</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/my_univerce.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>My Universe</h3>
+						<span class="main-section-content-songs_item-text_group">Coldplay</span>
+						<span class="main-section-content-songs_item-text_tags">popk-pop, bts, гукибтв</span>
+					</div>
+				</div>
+
+				<div class="main-section-content-songs_item">
+					<img src="./img/unholy.webp" alt="">
+					<div class="main-section-content-songs_item-text">
+						<h3>Unholy</h3>
+						<span class="main-section-content-songs_item-text_group">Sam Smith</span>
+						<span class="main-section-content-songs_item-text_tags">hyperpop, pop, electropop</span>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer-top">
+			<div class="footer-top-item">
+				<h2>Company</h2>
+				<ul>
+					<li>About Last.fm</li>
+					<li>Contact Us</li>
+					<li>Jobs</li>
+				</ul>
+			</div>
+
+			<div class="footer-top-item">
+				<h2>Help</h2>
+				<ul>
+					<li>Track My Music</li>
+					<li>Community Support</li>
+					<li>Community Guidelines</li>
+					<li>Help</li>
+				</ul>
+			</div>
+
+			<div class="footer-top-item">
+				<h2>Goodies</h2>
+				<ul>
+					<li>Download Scrobbler</li>
+					<li>Developer API</li>
+					<li>Free Music Downloads</li>
+					<li>Merchandise</li>
+				</ul>
+			</div>
+
+			<div class="footer-top-item">
+				<h2>Account</h2>
+				<ul>
+					<li>Inbox</li>
+					<li>Settings</li>
+					<li>Last.fm Pro</li>
+					<li>Logout</li>
+				</ul>
+			</div>
+
+			<div class="footer-top-item">
+				<h2>Follow Us</h2>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>YouTube</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
 </html>
